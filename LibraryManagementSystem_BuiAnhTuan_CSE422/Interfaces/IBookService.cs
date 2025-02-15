@@ -2,11 +2,14 @@
 {
     public interface IBookService
     {
-        void AddBook(IBook book);
+        void AddBook(string title, string author, string category, int quantity);
+        void AddEBook(string title, string author, string category, int quantity, string format, string link);
+        void AddMagazine(string title, string author, string category, int quantity, string topic, int issue);
         bool RemoveBook(string bookId);
-        IBook? GetBook(string bookId);
-        List<IBook> GetBookByTitle(string title);
-        List<IBook> GetBookByAuthor(string author);
+        string GetBook(string bookId);
+        string GetBookByTitle(string title);
+        string GetBookByAuthor(string author);
         bool UpdateBookQuantity(string bookId, int quantity);
+        string ShowAllBooks();
     }
 }

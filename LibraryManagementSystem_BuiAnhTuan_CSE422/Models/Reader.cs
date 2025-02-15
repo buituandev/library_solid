@@ -7,9 +7,10 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Models
         public string Id { get; set; }
         public string Name { get; set; }
         public List<IBook> BorrowedBooks { get; set; }
-        public bool CanBorrowMoreBooks()
+        
+        public new string ToString()
         {
-            return BorrowedBooks.Count < 4;
+            return $"Id: {Id} - Name: {Name}";
         }
     }
 }

@@ -6,5 +6,7 @@
         void RemoveReader(IReader reader);
         IReader? GetReader(string readerId);
         List<IReader> GetAllReader();
+        List<IBook> GetBorrowedBooks(string readerId);
+        
     }
 }

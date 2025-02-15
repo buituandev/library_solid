@@ -2,8 +2,12 @@
 {
     public interface IReaderService
     {
-        void RegisterReader(string readerId, string readerName);
+        void AddReader(string readerName);
+        IReader? GetReader(string readerId);
+        void RemoveReader(string readerId);
         string GetReaderDetails(string readerId);
-        void UpdateReaderInfo(IReader reader);
+        void UpdateReaderInfo(string name, string readerId);
+        bool CanBorrowMoreBooks(string readerId);
+        string ShowAllReaders();
     }
 }

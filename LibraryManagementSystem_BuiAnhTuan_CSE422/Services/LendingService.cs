@@ -2,26 +2,55 @@
 
 namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Services
 {
-    public class LendingService(IReaderRepository readerRepository, IBookRepository bookRepository) : ILendingService
+    public class LendingService(IBookRepository bookRepository, IReaderRepository readerRepository, ReaderService readerService, BookService bookService, ReportService reportService) : ILendingService
     {
-        public IReaderRepository ReaderRepository = readerRepository;
-        public IBookRepository BookRepository = bookRepository;
-
-        public void BorrowBook(string readerId, string bookId)
+        
+        public string BorrowBook(string readerId, string bookId)
         {
-            var reader = ReaderRepository.GetReader(readerId);
-            var book = BookRepository.GetBook(bookId);
-            BookRepository.RemoveBook(book
+            var reader = readerRepository.GetReader(readerId);
+            var book = bookRepository.GetBook(bookId);
+            if (reader == null || book == null)
+            {
+                return "Reader or book not found";
+            }
+
+            if (!readerService.CanBorrowMoreBooks(reader.Id))
+            {
+                return "Reader cannot borrow more books";
+            }
+
+            if (!bookService.IsBookAvailable(book.Id)) return "Book is not available";
+            reader.BorrowedBooks.Add(book);
+            bookService.UpdateBookQuantity(book.Id, book.Quantity - 1);
+            reportService.AddReportTypeBorrow(reader.Id, book.Id);
+            return "Book borrowed successfully";
+
         }
 
         public List<IBook> GetBorrowedBooks(string readerId)
         {
-            throw new NotImplementedException();
+            var reader = readerRepository.GetReader(readerId);
+            return reader == null ? [] : reader.BorrowedBooks;
         }
 
-        public void ReturnBook(string readerId, string bookId)
+        public string ReturnBook(string readerId, string bookId)
         {
-            throw new NotImplementedException();
+            var reader = readerRepository.GetReader(readerId);
+            var book = bookRepository.GetBook(bookId);
+            if (reader == null || book == null)
+            {
+                return "Reader or book not found";
+            }
+
+            if (!reader.BorrowedBooks.Contains(book))
+            {
+                return "Reader did not borrow this book";
+            }
+
+            reader.BorrowedBooks.Remove(book);
+            bookService.UpdateBookQuantity(book.Id, book.Quantity + 1);
+            reportService.AddReportTypeReturn(reader.Id, book.Id);
+            return "Book returned successfully";
         }
     }
 }

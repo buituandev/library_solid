@@ -13,35 +13,17 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Repositories
 
         public IBook? GetBook(string bookId)
         {
-            foreach (var book in from book in Books
-                                 where book.Id == bookId
-                                 select book)
-            {
-                return book;
-            }
-            return null;
+            return (from book in Books where book.Id == bookId select book).FirstOrDefault();
         }
 
         public List<IBook> GetBookByAuthor(string author)
         {
-            List<IBook> booksByAuthor =
-            [
-                .. from book in Books
-                                     where book.Author.Equals(author)
-                                     select book,
-            ];
-            return booksByAuthor;
+            return Books.Where(book => book.Author == author).ToList();
         }
 
         public List<IBook> GetBookByTitle(string title)
         {
-            List<IBook> booksByAuthor =
-            [
-                .. from book in Books
-                                     where book.Title.Equals(title)
-                                     select book,
-            ];
-            return booksByAuthor;
+            return Books.Where(book => book.Title == title).ToList();
         }
 
         public void RemoveBook(IBook book)
@@ -52,6 +34,11 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Repositories
         public void UpdateBookQuantity(string bookId, int quantity)
         {
             Books.FindAll(book => book.Id == bookId).ForEach(book => book.Quantity = quantity);
+        }
+
+        public List<IBook> GetAllBooks()
+        {
+            return Books;
         }
     }
 }

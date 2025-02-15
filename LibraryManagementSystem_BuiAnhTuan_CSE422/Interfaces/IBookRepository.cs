@@ -8,5 +8,6 @@
         List<IBook> GetBookByTitle(string title);
         List<IBook> GetBookByAuthor(string author);
         void UpdateBookQuantity(string bookId, int quantity);
+        List<IBook> GetAllBooks();
     }
 }

@@ -9,10 +9,11 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Models
         public string Author { get; set; }
         public string Category { get; set; }
         public int Quantity { get; set; }
-
-        public void UpdateQuantity(int quantity)
+        
+        
+        public new virtual string ToString()
         {
-            Quantity += quantity;
+            return $"Id: {Id} - Title: {Title} - Author: {Author} - Category: {Category} - Quantity: {Quantity}";
         }
     }
 }

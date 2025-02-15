@@ -18,13 +18,18 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Repositories
 
         public IReader? GetReader(string readerId)
         {
-            var reader = Readers.FirstOrDefault(r => r.Id == readerId);
-            return reader;
+            return Readers.FirstOrDefault(r => r.Id == readerId);
         }
 
         public void RemoveReader(IReader reader)
         {
             Readers.Remove(reader);
+        }
+        
+        public List<IBook> GetBorrowedBooks(string readerId)
+        {
+            var reader = GetReader(readerId);
+            return reader == null ? [] : reader.BorrowedBooks;
         }
     }
 }
