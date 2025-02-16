@@ -6,7 +6,7 @@ using LibraryManagementSystem_BuiAnhTuan_CSE422.UI;
 
 class Program
 {
-    static void Main()
+    private static void Main()
     {
         var bookRepository = new BookRepository(Data.Books);
         var readerRepository = new ReaderRepository(Data.Readers);
@@ -98,10 +98,16 @@ class Program
                 case 3:
                     ConsoleUi.Input<Magazine>("AddMagazine", bookService);
                     break;
-                case 5:
+                case 4:
                     ConsoleUi.ShowTable(bookService.ShowAllBooks());
                     break;
+                case 5:
+                    ConsoleUi.ShowTable(ConsoleUi.InputForMethodReturn<string>("GetBookByAuthor", bookService));
+                    break;
+                case 6:
+                    ConsoleUi.ShowTable(ConsoleUi.InputForMethodReturn<string>("GetBookByTitle", bookService));
+                    break;
             }
-        } while (bookOption != 6);
+        } while (bookOption != 7);
     }
 }

@@ -2,8 +2,8 @@
 {
     public class EBook : Book
     {
-        public string Format { get; set; }
-        public string Link { get; set; }
+        public string? Format { get; init; }
+        public string? Link { get; init; }
         
         public override string ToString()
         {

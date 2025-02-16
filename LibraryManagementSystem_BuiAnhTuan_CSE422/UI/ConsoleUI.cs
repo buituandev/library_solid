@@ -45,7 +45,9 @@ public static partial class ConsoleUi
         Console.WriteLine("  [2] Add eBook");
         Console.WriteLine("  [3] Add Magazine");
         Console.WriteLine("  [4] Show All Books");
-        Console.WriteLine("  [5] Back");
+        Console.WriteLine("  [5] Search Book by Author");
+        Console.WriteLine("  [6] Search Book by Title");
+        Console.WriteLine("  [7] Back");
     }
     
     public static int GetMenuOption()

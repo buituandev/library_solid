@@ -2,8 +2,8 @@
 
 public class Magazine : Book
 {
-    public int Issue { get; set; }
-    public string Topic { get; set; }
+    public int? Issue { get; init; }
+    public string? Topic { get; init; }
     
     public override string ToString()
     {
