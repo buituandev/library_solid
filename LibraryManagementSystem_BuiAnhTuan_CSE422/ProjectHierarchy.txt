@@ -1,0 +1,159 @@
+[Folder] LibraryManagementSystem_BuiAnhTuan_CSE422
+    [Folder] bin
+        [Folder] Debug
+            [Folder] net8.0
+    [Folder] Database
+        [Class] Data.cs
+            Class: Data
+            Properties:
+            Methods:
+    [Folder] Interfaces
+        [Class] IBook.cs
+        [Class] IBookRepository.cs
+        [Class] IBookService.cs
+        [Class] ILendingService.cs
+        [Class] IReader.cs
+        [Class] IReaderRepository.cs
+        [Class] IReaderService.cs
+    [Folder] Models
+        [Class] Book.cs
+            Class: Book
+            Properties:
+              - string? Id
+              - string? Title
+              - string? Author
+              - string? Category
+              - int Quantity
+            Methods:
+              - string ToString()
+        [Class] EBook.cs
+            Class: EBook
+            Properties:
+              - string? Format
+              - string? Link
+            Methods:
+              - string ToString()
+        [Class] Magazine.cs
+            Class: Magazine
+            Properties:
+              - int? Issue
+              - string? Topic
+            Methods:
+              - string ToString()
+        [Class] Reader.cs
+            Class: Reader
+            Properties:
+              - string? Id
+              - string? Name
+              - List<IBook>? BorrowedBooks
+            Methods:
+              - string ToString()
+        [Class] ReportRecord.cs
+            Class: ReportRecord
+            Properties:
+              - string ReaderId
+              - string BookId
+              - string Type
+              - DateTime Date
+            Methods:
+    [Folder] obj
+        [Folder] Debug
+            [Folder] net8.0
+                [Class] .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                [Class] LibraryManagementSystem_BuiAnhTuan_CSE422.AssemblyInfo.cs
+                [Class] LibraryManagementSystem_BuiAnhTuan_CSE422.GlobalUsings.g.cs
+    [Folder] Repositories
+        [Class] BookRepository.cs
+            Class: BookRepository
+            Properties:
+            Methods:
+              - void AddBook(IBook book)
+              - IBook? GetBook(string bookId)
+              - List<IBook> GetBookByCategory(string category)
+              - List<IBook> GetBookByTitle(string title)
+              - void RemoveBook(IBook book)
+              - void UpdateBookQuantity(string bookId, int quantity)
+              - List<IBook> GetAllBooks()
+        [Class] ReaderRepository.cs
+            Class: ReaderRepository
+            Properties:
+            Methods:
+              - void AddReader(IReader reader)
+              - List<IReader> GetAllReader()
+              - IReader? GetReader(string readerId)
+              - void RemoveReader(IReader reader)
+              - List<IBook> GetBorrowedBooks(string readerId)
+        [Class] ReportRepository.cs
+            Class: ReportRepository
+            Properties:
+            Methods:
+              - void AddRecord(ReportRecord record)
+              - List<ReportRecord> GetAllRecords()
+              - List<ReportRecord> GetRecordsByUserId(string userId)
+              - List<ReportRecord> GetRecordsByBookId(string bookId)
+              - List<ReportRecord> GetRecordsByType(string type)
+              - List<ReportRecord> GetRecordsByDate(DateTime date)
+    [Folder] Services
+        [Class] BookService.cs
+            Class: BookService
+            Properties:
+            Methods:
+              - void AddBook(string title, string author, string category, int quantity)
+              - void AddEBook(string title, string author, string category, int quantity, string format, string link)
+              - void AddMagazine(string title, string author, string category, int quantity, string topic, int issue)
+              - string GetBook(string bookId)
+              - string GetBookByCategory(string category)
+              - string GetBookByTitle(string title)
+              - bool RemoveBook(string bookId)
+              - bool UpdateBookQuantity(string bookId, int quantity)
+              - bool IsBookAvailable(string bookId)
+              - string ShowAllBooks()
+        [Class] LendingService.cs
+            Class: LendingService
+            Properties:
+            Methods:
+              - string BorrowBook(string readerId, string bookId)
+              - List<IBook>? GetBorrowedBooks(string readerId)
+              - string ReturnBook(string readerId, string bookId)
+        [Class] ReaderService.cs
+            Class: ReaderService
+            Properties:
+            Methods:
+              - void AddReader(string readerName)
+              - void RemoveReader(string readerId)
+              - IReader? GetReader(string readerId)
+              - string GetReaderDetails(string readerId)
+              - void UpdateReaderInfo(string name, string readerId)
+              - bool CanBorrowMoreBooks(string readerId)
+              - string ShowAllReaders()
+        [Class] ReportService.cs
+            Class: ReportService
+            Properties:
+            Methods:
+              - string GenerateReport()
+              - void AddReportTypeBorrow(string readerId, string bookId)
+              - void AddReportTypeReturn(string readerId, string bookId)
+    [Folder] UI
+        [Class] ConsoleUI.cs
+            Class: ConsoleUi
+            Properties:
+            Methods:
+              - void PrintHeader(string title)
+              - void ShowWelcomeMessage()
+              - void ShowMenu()
+              - void ShowReaderManagementMenu()
+              - void ShowBookManagementMenu()
+              - int GetMenuOption()
+              - T InputForMethodReturn(string methodName, object instance)
+              - void InputForMethod(string methodName, object instance)
+              - void Input(string methodName, object instance)
+              - void ShowTable(string format)
+              - void ShowReportTable(string format)
+              - Regex MyRegex()
+    [Class] Program.cs
+        Class: Program
+        Properties:
+        Methods:
+          - void Main()
+          - void ProcessDirectory(string dirPath, StreamWriter writer, string indent)
+          - void ProcessFile(string filePath, StreamWriter writer, string indent)
