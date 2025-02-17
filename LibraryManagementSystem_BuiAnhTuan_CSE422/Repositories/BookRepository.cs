@@ -14,9 +14,9 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Repositories
             return (from book in books where book.Id == bookId select book).FirstOrDefault();
         }
 
-        public List<IBook> GetBookByAuthor(string author)
+        public List<IBook> GetBookByCategory(string category)
         {
-            return books.Where(book => book.Author == author).ToList();
+            return books.Where(book => book.Category == category).ToList();
         }
 
         public List<IBook> GetBookByTitle(string title)

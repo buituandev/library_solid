@@ -55,10 +55,10 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Services
             return book == null ? $"Message:{bookId} not found" : book.ToString();
         }
 
-        public string GetBookByAuthor(string author)
+        public string GetBookByCategory(string category)
         {
             var stringBuilder = new StringBuilder();
-            foreach (var book in bookRepository.GetBookByAuthor(author))
+            foreach (var book in bookRepository.GetBookByCategory(category))
             {
                 stringBuilder.AppendLine(book.ToString());
             }

@@ -14,7 +14,7 @@ class Program
 
         var readerService = new ReaderService(readerRepository);
         var bookService = new BookService(bookRepository);
-        var reportService = new ReportService(bookRepository, readerRepository, reportRepository, readerService);
+        var reportService = new ReportService(readerRepository, reportRepository, readerService);
         var lendingService = new LendingService(bookRepository, readerRepository, readerService, bookService, reportService);
 
         ConsoleUi.ShowWelcomeMessage();
@@ -25,7 +25,7 @@ class Program
             ConsoleUi.ShowMenu();
             option = ConsoleUi.GetMenuOption();
             HandleMainMenuOption(option, readerService, bookService, reportService, lendingService);
-        } while (option != 9);
+        } while (option != 8);
     }
 
     private static void HandleMainMenuOption(int option, ReaderService readerService, BookService bookService, ReportService reportService, LendingService lendingService)
@@ -51,10 +51,7 @@ class Program
                 ConsoleUi.ShowTable(readerService.ShowAllReaders());
                 break;
             case 7:
-                ConsoleUi.ShowTable(ConsoleUi.InputForMethodReturn<string>("ReportReaderBorrowedBooks", reportService));
-                break;
-            case 8:
-                ConsoleUi.ShowTable(reportService.GenerateReport());
+                ConsoleUi.ShowReportTable(reportService.GenerateReport());
                 break;
         }
     }

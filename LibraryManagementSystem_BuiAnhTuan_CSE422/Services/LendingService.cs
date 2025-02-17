@@ -27,7 +27,7 @@ namespace LibraryManagementSystem_BuiAnhTuan_CSE422.Services
 
         }
 
-        public List<IBook> GetBorrowedBooks(string readerId)
+        public List<IBook>? GetBorrowedBooks(string readerId)
         {
             var reader = readerRepository.GetReader(readerId);
             return reader == null ? [] : reader.BorrowedBooks;

@@ -8,7 +8,7 @@
         bool RemoveBook(string bookId);
         string GetBook(string bookId);
         string GetBookByTitle(string title);
-        string GetBookByAuthor(string author);
+        string GetBookByCategory(string category);
         bool UpdateBookQuantity(string bookId, int quantity);
         string ShowAllBooks();
     }

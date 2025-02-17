@@ -4,6 +4,6 @@
     {
         string BorrowBook(string readerId, string bookId);
         string ReturnBook(string readerId, string bookId);
-        List<IBook> GetBorrowedBooks(string readerId);
+        List<IBook>? GetBorrowedBooks(string readerId);
     }
 }

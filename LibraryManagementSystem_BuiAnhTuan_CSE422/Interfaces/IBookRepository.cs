@@ -6,7 +6,7 @@
         void RemoveBook(IBook book);
         IBook? GetBook(string bookId);
         List<IBook> GetBookByTitle(string title);
-        List<IBook> GetBookByAuthor(string author);
+        List<IBook> GetBookByCategory(string category);
         void UpdateBookQuantity(string bookId, int quantity);
         List<IBook> GetAllBooks();
     }
