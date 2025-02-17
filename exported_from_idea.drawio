@@ -1,0 +1,380 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram id="xCmCruXaa18RRRzGFwvm" name="Page-1">
+    <mxGraphModel dx="1280" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="node8" value="ConsoleUi" style="label;fontStyle=0;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACPklEQVR4Xu2WuUsDQRTG03hbe7USi9jZaGNjtNBokyjZFQUrG/GsbATvUtTOSm2DuyERBMH7qtIE2VWwEDz+Aa2s1vf2kNmXZNfsERD8YIqdnZnfN2/fvNlA4F+/VGZnvEwWuQlZ4Bay4mgdfe+rXhNDVQA/gabo7eU+GW+m43wRC7/bjymHW/2lM0Hhgz2tSrgjqKQ2S2AiH7yzrVltOSZSfD2d70pWcNZEelszIYn8El3DsX4DxxbtCik3e1EtCgI/Q9dxJEdwkbt63h2rpGsVLSkxVO4Enj0eraFrscJ1JYGflARu0TJXcJDX8MzhQDXkx5k+3vrUYCLhoPRmRAm3B+3gRbVb2JSRsA8i9wpRaaD8gCyMNMKAdxyU3OgzmXADx4jGurX6kd6KaP1JbpnyVT2I8RZqwi7sBsh4fjrqrYDnc+zDnSM8zyZm2TVMYk1gsbGCo6gBSeSmbODXtqeGNWEFR+UaMOcShcP3r2XnF9RjimuCo7MOZuasHOcYgASD5zfDhCN4MaIG1L6D4aBhwlc4Shb5D4RgxEz9cKrgyK3ZRdC1AHKKBgA0T9+h1FMBdwX8Sa3kPf9uBQtH9DB/oQkWgokLEbo0PgUWoYKV0I1wd8z3zmm3kIg/RciP/wcURkKv+58UHg2HzP8PcDHR+Z5Jq4Ra2A24Woy6Q8qdfiSxWNF5nklNOAs4tHM0Sed5JrxoEPRTCc3wC7yi6RxPRSshCy9Uzj1XnkpYOrghLRL8qpyMT/v6zf+8vgFG80iK7km8qAAAAABJRU5ErkJggg==;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="476" y="1220" width="90" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="node14" value="Data" style="label;fontStyle=0;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACPklEQVR4Xu2WuUsDQRTG03hbe7USi9jZaGNjtNBokyjZFQUrG/GsbATvUtTOSm2DuyERBMH7qtIE2VWwEDz+Aa2s1vf2kNmXZNfsERD8YIqdnZnfN2/fvNlA4F+/VGZnvEwWuQlZ4Bay4mgdfe+rXhNDVQA/gabo7eU+GW+m43wRC7/bjymHW/2lM0Hhgz2tSrgjqKQ2S2AiH7yzrVltOSZSfD2d70pWcNZEelszIYn8El3DsX4DxxbtCik3e1EtCgI/Q9dxJEdwkbt63h2rpGsVLSkxVO4Enj0eraFrscJ1JYGflARu0TJXcJDX8MzhQDXkx5k+3vrUYCLhoPRmRAm3B+3gRbVb2JSRsA8i9wpRaaD8gCyMNMKAdxyU3OgzmXADx4jGurX6kd6KaP1JbpnyVT2I8RZqwi7sBsh4fjrqrYDnc+zDnSM8zyZm2TVMYk1gsbGCo6gBSeSmbODXtqeGNWEFR+UaMOcShcP3r2XnF9RjimuCo7MOZuasHOcYgASD5zfDhCN4MaIG1L6D4aBhwlc4Shb5D4RgxEz9cKrgyK3ZRdC1AHKKBgA0T9+h1FMBdwX8Sa3kPf9uBQtH9DB/oQkWgokLEbo0PgUWoYKV0I1wd8z3zmm3kIg/RciP/wcURkKv+58UHg2HzP8PcDHR+Z5Jq4Ra2A24Woy6Q8qdfiSxWNF5nklNOAs4tHM0Sed5JrxoEPRTCc3wC7yi6RxPRSshCy9Uzj1XnkpYOrghLRL8qpyMT/v6zf+8vgFG80iK7km8qAAAAABJRU5ErkJggg==;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="294" y="1212" width="116" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="node3" value="Program" style="label;fontStyle=0;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;overflow=hidden;spacingLeft=28;spacingRight=4;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;imageWidth=16;imageHeight=16;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACPklEQVR4Xu2WuUsDQRTG03hbe7USi9jZaGNjtNBokyjZFQUrG/GsbATvUtTOSm2DuyERBMH7qtIE2VWwEDz+Aa2s1vf2kNmXZNfsERD8YIqdnZnfN2/fvNlA4F+/VGZnvEwWuQlZ4Bay4mgdfe+rXhNDVQA/gabo7eU+GW+m43wRC7/bjymHW/2lM0Hhgz2tSrgjqKQ2S2AiH7yzrVltOSZSfD2d70pWcNZEelszIYn8El3DsX4DxxbtCik3e1EtCgI/Q9dxJEdwkbt63h2rpGsVLSkxVO4Enj0eraFrscJ1JYGflARu0TJXcJDX8MzhQDXkx5k+3vrUYCLhoPRmRAm3B+3gRbVb2JSRsA8i9wpRaaD8gCyMNMKAdxyU3OgzmXADx4jGurX6kd6KaP1JbpnyVT2I8RZqwi7sBsh4fjrqrYDnc+zDnSM8zyZm2TVMYk1gsbGCo6gBSeSmbODXtqeGNWEFR+UaMOcShcP3r2XnF9RjimuCo7MOZuasHOcYgASD5zfDhCN4MaIG1L6D4aBhwlc4Shb5D4RgxEz9cKrgyK3ZRdC1AHKKBgA0T9+h1FMBdwX8Sa3kPf9uBQtH9DB/oQkWgokLEbo0PgUWoYKV0I1wd8z3zmm3kIg/RciP/wcURkKv+58UHg2HzP8PcDHR+Z5Jq4Ra2A24Woy6Q8qdfiSxWNF5nklNOAs4tHM0Sed5JrxoEPRTCc3wC7yi6RxPRSshCy9Uzj1XnkpYOrghLRL8qpyMT/v6zf+8vgFG80iK7km8qAAAAABJRU5ErkJggg==;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="630" y="1212" width="78" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="edge22" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.125;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="vLJ5xCk7FeeQyzbGRAer-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="341" />
+              <mxPoint x="-20" y="310" />
+              <mxPoint x="42" y="310" />
+            </Array>
+            <mxPoint x="41.5" y="50" as="targetPoint" />
+            <mxPoint x="-30" y="356" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge3" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#955ae0;exitX=0.167;exitY=0.000;exitDx=0;exitDy=0;entryX=0.375;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="79" y="755" />
+              <mxPoint x="81" y="755" />
+              <mxPoint x="81" y="435" />
+              <mxPoint x="85" y="435" />
+            </Array>
+            <mxPoint x="85" y="103" as="targetPoint" />
+            <mxPoint x="79.875" y="789" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge14" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.625;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="789" />
+              <mxPoint x="110" y="103" />
+            </Array>
+            <mxPoint x="117" y="103" as="targetPoint" />
+            <mxPoint x="121.5" y="789" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge18" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.833;exitY=0.000;exitDx=0;exitDy=0;entryX=0.215;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" parent="1" target="vLJ5xCk7FeeQyzbGRAer-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="163" y="755" />
+              <mxPoint x="153" y="755" />
+            </Array>
+            <mxPoint x="163.125" y="789" as="sourcePoint" />
+            <mxPoint x="153" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge8" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.636;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" parent="1" target="vLJ5xCk7FeeQyzbGRAer-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="256" y="735" />
+              <mxPoint x="218" y="735" />
+            </Array>
+            <mxPoint x="217" y="534" as="targetPoint" />
+            <mxPoint x="255.75" y="774" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge17" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="307" y="735" />
+              <mxPoint x="281" y="735" />
+            </Array>
+            <mxPoint x="307.25" y="774" as="sourcePoint" />
+            <mxPoint x="281" y="354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge23" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.750;entryY=1.001;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" source="vLJ5xCk7FeeQyzbGRAer-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2" y="620" />
+              <mxPoint x="2" y="598" />
+              <mxPoint x="7" y="598" />
+            </Array>
+            <mxPoint x="1.9839999999999236" y="616.645" as="sourcePoint" />
+            <mxPoint x="7.198602794411272" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge0" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#955ae0;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="355" />
+              <mxPoint x="149" y="355" />
+            </Array>
+            <mxPoint x="149" y="103" as="targetPoint" />
+            <mxPoint x="201" y="376" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge19" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#955ae0;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.417;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="681" y="355" />
+              <mxPoint x="675" y="355" />
+            </Array>
+            <mxPoint x="675.0239999999999" y="132" as="targetPoint" />
+            <mxPoint x="681" y="376" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge20" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#955ae0;exitX=0.438;exitY=0.009;exitDx=0;exitDy=0;entryX=0.083;entryY=1.000;entryDx=0;entryDy=0;exitPerimeter=0;fontColor=#000000;" parent="1" source="WwEP7FFvol6HBV4VEJV2-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="518" y="212" />
+              <mxPoint x="501" y="212" />
+              <mxPoint x="501" y="175" />
+              <mxPoint x="651" y="175" />
+            </Array>
+            <mxPoint x="650.9760000000001" y="132" as="targetPoint" />
+            <mxPoint x="503.5" y="210" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge21" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.250;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="411" y="995" />
+              <mxPoint x="281" y="995" />
+            </Array>
+            <mxPoint x="281.5" y="937" as="targetPoint" />
+            <mxPoint x="411.25" y="1036" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge25" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.083;exitY=0.000;exitDx=0;exitDy=0;entryX=0.417;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" parent="1" target="vLJ5xCk7FeeQyzbGRAer-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="391" y="1015" />
+              <mxPoint x="201" y="1015" />
+              <mxPoint x="201" y="775" />
+              <mxPoint x="185" y="775" />
+              <mxPoint x="185" y="540" />
+              <mxPoint x="184" y="540" />
+            </Array>
+            <mxPoint x="185" y="534" as="targetPoint" />
+            <mxPoint x="391.0429999999999" y="1036" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge15" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.917;exitY=0.000;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" target="WwEP7FFvol6HBV4VEJV2-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="1015" />
+              <mxPoint x="843" y="1015" />
+            </Array>
+            <mxPoint x="491.9569999999999" y="1036" as="sourcePoint" />
+            <mxPoint x="741.0000000000002" y="869" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge27" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.750;exitY=0.000;exitDx=0;exitDy=0;entryX=0.625;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="471" y="995" />
+              <mxPoint x="661" y="995" />
+              <mxPoint x="661" y="815" />
+              <mxPoint x="698" y="815" />
+            </Array>
+            <mxPoint x="471.75" y="1036" as="sourcePoint" />
+            <mxPoint x="698.25" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge28" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.583;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="451" y="975" />
+              <mxPoint x="581" y="975" />
+            </Array>
+            <mxPoint x="451.5429999999999" y="1036" as="sourcePoint" />
+            <mxPoint x="581" y="937" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge2" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.417;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="431" y="1015" />
+              <mxPoint x="421" y="1015" />
+            </Array>
+            <mxPoint x="431.4570000000001" y="1036" as="sourcePoint" />
+            <mxPoint x="421" y="754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge26" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;entryX=0.250;entryY=1.001;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;" parent="1" source="vLJ5xCk7FeeQyzbGRAer-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-110" y="730" />
+              <mxPoint x="-110" y="598" />
+              <mxPoint x="-44" y="598" />
+            </Array>
+            <mxPoint x="-110" y="795" as="sourcePoint" />
+            <mxPoint x="-44.19860279441127" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge4" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.583;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="781" y="195" />
+              <mxPoint x="687" y="195" />
+            </Array>
+            <mxPoint x="781.5" y="219" as="sourcePoint" />
+            <mxPoint x="686.9760000000001" y="132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge11" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.833;exitY=0.000;exitDx=0;exitDy=0;entryX=0.917;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="886" y="575" />
+              <mxPoint x="881" y="575" />
+              <mxPoint x="881" y="155" />
+              <mxPoint x="711" y="155" />
+            </Array>
+            <mxPoint x="711.0239999999999" y="132" as="targetPoint" />
+            <mxPoint x="886.4549999999999" y="606" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge16" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#955ae0;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="841" y="175" />
+              <mxPoint x="699" y="175" />
+            </Array>
+            <mxPoint x="699" y="132" as="targetPoint" />
+            <mxPoint x="841.5" y="606" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge13" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.167;exitY=0.000;exitDx=0;exitDy=0;entryX=0.875;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="796" y="575" />
+              <mxPoint x="733" y="575" />
+            </Array>
+            <mxPoint x="796.5450000000001" y="606" as="sourcePoint" />
+            <mxPoint x="732.75" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge6" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=block;endSize=12;strokeColor=#955ae0;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.250;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="774" />
+              <mxPoint x="600" y="370" />
+              <mxPoint x="663" y="370" />
+            </Array>
+            <mxPoint x="663" y="132" as="targetPoint" />
+            <mxPoint x="581" y="774" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge5" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.833;exitY=0.000;exitDx=0;exitDy=0;entryX=0.375;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="619" y="735" />
+              <mxPoint x="664" y="735" />
+            </Array>
+            <mxPoint x="618.962" y="774" as="sourcePoint" />
+            <mxPoint x="663.75" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge9" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=none;endArrow=block;endSize=12;endFill=0;strokeColor=#24a394;exitX=0.167;exitY=0.000;exitDx=0;exitDy=0;entryX=0.750;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543" y="735" />
+              <mxPoint x="530" y="735" />
+              <mxPoint x="530" y="360" />
+              <mxPoint x="533" y="360" />
+            </Array>
+            <mxPoint x="543.038" y="774" as="sourcePoint" />
+            <mxPoint x="532.75" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge24" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.125;exitY=0.000;exitDx=0;exitDy=0;entryX=0.842;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" parent="1" target="vLJ5xCk7FeeQyzbGRAer-12" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="379" y="575" />
+              <mxPoint x="250" y="575" />
+            </Array>
+            <mxPoint x="248.99999999999977" y="534" as="targetPoint" />
+            <mxPoint x="379" y="606" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge12" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.875;exitY=0.000;exitDx=0;exitDy=0;entryX=0.125;entryY=1.000;entryDx=0;entryDy=0;fontColor=#000000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463" y="575" />
+              <mxPoint x="629" y="575" />
+            </Array>
+            <mxPoint x="463" y="606" as="sourcePoint" />
+            <mxPoint x="629.25" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge7" value="" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=none;endArrow=diamondThinendSize=12;strokeColor=#f2c55c;exitX=0.625;exitY=0.000;exitDx=0;exitDy=0;entryX=0.169;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" parent="1" target="WwEP7FFvol6HBV4VEJV2-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="435" y="555" />
+              <mxPoint x="472" y="555" />
+              <mxPoint x="472" y="362" />
+            </Array>
+            <mxPoint x="435" y="606" as="sourcePoint" />
+            <mxPoint x="474.25" y="351" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBook&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: string&lt;br&gt;+ Title: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Author: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Category: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Quanitity: int&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="-50" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-2" value="Book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-98" y="341" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-3" value="&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Id: string&lt;br&gt;+ Title: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Author: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Category: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ Quanitity: int&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-2" vertex="1">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-2" vertex="1">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-5" value="+ ToString(): string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-2" vertex="1">
+          <mxGeometry y="128" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-6" value="EBook" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-68" y="620" width="130" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-7" value="+ Format: string&lt;div&gt;+ Link: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-6" vertex="1">
+          <mxGeometry y="26" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-6" vertex="1">
+          <mxGeometry y="70" width="130" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-9" value="Magazine" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="730" width="130" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-10" value="+ Issue: int&lt;div&gt;+ Topic: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-9" vertex="1">
+          <mxGeometry y="24" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontColor=#000000;" parent="vLJ5xCk7FeeQyzbGRAer-9" vertex="1">
+          <mxGeometry y="68" width="130" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBookRepository&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ AddBook(IBook): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetBook(string): IBook&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetBookByTitle(string): List&amp;lt;IBook&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+GetBookByCategory(string):List&amp;lt;IBook&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UpdateQuantity(int, string): void&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GetAllBooks(): List&amp;lt;IBook&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="120" y="376" width="150" height="214" as="geometry" />
+        </mxCell>
+        <mxCell id="vLJ5xCk7FeeQyzbGRAer-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BookRepository&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ AddBook(IBook): void&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetBook(string): IBook&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetBookByTitle(string): List&amp;lt;IBook&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+GetBookByCategory(string):List&amp;lt;IBook&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ UpdateQuantity(int, string): void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetAllBooks(): List&amp;lt;IBook&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry y="790" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dJ_Uom7QuKqA8cq5UnN2-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IBookService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ AddBook(string title, string author, string category, int quantity): void&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ AddEBook(string title, string author, string category, int quantity, string format, string link): void&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ AddMagazine(string title, string author, string category, int quantity, string topic, int issue): void&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ RemoveBook(string bookId): bool&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ GetBook(string bookId): string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ GetBookByTitle(string title): string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ GetBookByAuthor(string author): string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ UpdateBookQuantity(string bookId, int quantity): bool&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ ShowAllBooks(): s&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;tring&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="198.25" y="-40" width="166.5" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="dJ_Uom7QuKqA8cq5UnN2-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BookService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ AddBook(string title, string author, string category, int quantity): void&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ AddEBook(string title, string author, string category, int quantity, string format, string link): void&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ AddMagazine(string title, string author, string category, int quantity, string topic, int issue): void&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ RemoveBook(string bookId): bool&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ GetBook(string bookId): string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ GetBookByTitle(string title): string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ GetBookByAuthor(string author): string&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ UpdateBookQuantity(string bookId, int quantity): bool&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;+ ShowAllBooks(): s&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;tring&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="770" width="166.5" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dJ_Uom7QuKqA8cq5UnN2-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReader&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: string&lt;br&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BorrowedBooks: List&amp;lt;IBook&amp;gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="586" y="-20" width="190" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="dJ_Uom7QuKqA8cq5UnN2-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Reader&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Id: string&lt;br&gt;+ Name: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ BorrowedBooks: List&amp;lt;IBook&amp;gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ ToString(): string&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="690" y="220" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReaderService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ AddReader(string readerName): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ GetReader(string readerId): IReader&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ RemoveReader(string readerId): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ GetReaderDetails(string readerId): string&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ UpdateReaderInfo(string name, string readerId): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+CanBorrowMoreBooks(string readerId): bool&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ ShowAllReaders(): string&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="445.5" y="140" width="166.5" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IReaderRepository&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ AddReader(IReader reader): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ RemoveReader(IReader reader): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ GetReader(string readerId): IReader?&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ GetAllReader(): List&amp;lt;IReader&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ GetBorrowedBooks(string readerId): List&amp;lt;IBook&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="610" y="376" width="166" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReaderRepository&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ AddReader(IReader reader): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ RemoveReader(IReader reader): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ GetReader(string readerId): IReader?&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ GetAllReader(): List&amp;lt;IReader&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot; face=&quot;Helvetica&quot;&gt;+ GetBorrowedBooks(string readerId): List&amp;lt;IBook&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="760" y="606" width="166" height="154" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ILendingService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;+ BorrowBook(string readerId, string bookId): string&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;+ ReturnBook(string readerId, string bookId): string&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;+ GetBorrowedBooks(string readerId): List&amp;lt;IBook&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="760" y="783" width="166" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LendingService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;+ BorrowBook(string readerId, string bookId): string&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;+ ReturnBook(string readerId, string bookId): string&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;+ GetBorrowedBooks(string readerId): List&amp;lt;IBook&amp;gt;&lt;/span&gt;&lt;br style=&quot;font-family: Roboto, Arial, sans-serif; font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="350" y="1030" width="166" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReportService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;+ GenerateReport(): string&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="340" y="593" width="166" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="WwEP7FFvol6HBV4VEJV2-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ReaderService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr style=&quot;border-style:solid;&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ AddReader(string readerName): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ GetReader(string readerId): IReader&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ RemoveReader(string readerId): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ GetReaderDetails(string readerId): string&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ UpdateReaderInfo(string name, string readerId): void&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+CanBorrowMoreBooks(string readerId): bool&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;font-variant-ligatures: none; letter-spacing: 0.1px; white-space-collapse: preserve;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 9px;&quot;&gt;+ ShowAllReaders(): string&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="490" y="770" width="166" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
